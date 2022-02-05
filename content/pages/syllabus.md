@@ -40,11 +40,48 @@ Grading
 
 Grades will be determined using the following weights:
 
-| ACTIVITIES | PERCENTAGES |
-| --- | --- |
-| Mini-quizzes | 16% |
-| Exercises and labs | 24% |
-| Final group project | 60% 
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+ACTIVITIES
+{{< thclose >}}
+{{< thopen >}}
+PERCENTAGES
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Mini-quizzes
+{{< tdclose >}}
+{{< tdopen >}}
+16%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Exercises and labs
+{{< tdclose >}}
+{{< tdopen >}}
+24%
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+Final group project
+{{< tdclose >}}
+{{< tdopen >}}
+60%
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
 
   
  
@@ -59,41 +96,429 @@ Calendar
 
 The calendar below provides information on the course's lecture (L) and recitation (R) sessions.
 
-| SES # | TOPICS | LECTURERS |
-| --- | --- | --- |
-| {{< td-colspan 3 >}}**Week 1**{{< /td-colspan >}} |||
-| L1 | Course introduction | Saman Amarasinghe |
-| L2 | Introduction to Cell processor | Michael Perrone, IBM |
-| R1 | Getting to know Cell | &nbsp; |
-| L3 | Introduction to parallel architectures | Saman Amarasinghe |
-| &nbsp; | Quiz 1 | &nbsp; |
-| L4 | Introduction to concurrent programming | Saman Amarasinghe |
-| &nbsp; | Project reviews | &nbsp; |
-| L5 | Parallel programming concepts | Rodric Rabbah, IBM |
-| &nbsp; | Quiz 2 | &nbsp; |
-| L6 | Design patterns for parallel programming I | Rodric Rabbah, IBM |
-| {{< td-colspan 3 >}}**Week 2**{{< /td-colspan >}} |||
-| R2-R3 | Cell programming hands-on | &nbsp; |
-| L7 | Design patterns for parallel programming II | Rodric Rabbah, IBM |
-| &nbsp; | Quiz 3 | &nbsp; |
-| L8 | StreamIt language | Bill Thies |
-| R4 | Cell debugging tools | &nbsp; |
-| L9 | Debugging parallel programs | Rodric Rabbah, IBM |
-| &nbsp; | Quiz 4 | &nbsp; |
-| L10 | Performance monitoring and optimizations | Rodric Rabbah, IBM |
-| {{< td-colspan 3 >}}**Week 3**{{< /td-colspan >}} |||
-| L11 | Parallelizing compilers | Saman Amarasinghe |
-| &nbsp; | Quiz 5 | &nbsp; |
-| L12 | StreamIt parallelizing compiler | Saman Amarasinghe |
-| R5 | Cell profiling tools | &nbsp; |
-| R6 | SIMD programming on Cell | &nbsp; |
-| L13 | Star-P | Alan Edelman |
-| &nbsp; | Quiz 6 | &nbsp; |
-| L14 | Synthesizing parallel programs | Arvind |
-| L15 | Cilk | Bradley Kuszmaul |
-| L16 | Introduction to game development | Mike Acton, Insomiac Games |
-| {{< td-colspan 3 >}}**Week 4**{{< /td-colspan >}} |||
-| L17 | The Raw experience | Rodric Rabbah, IBM |
-| L18 | The future | Saman Amarasinghe |
-| &nbsp; | Student project competition | &nbsp; |
-| &nbsp; | Award ceremony |
+{{< tableopen >}}
+{{< theadopen >}}
+{{< tropen >}}
+{{< thopen >}}
+SES #
+{{< thclose >}}
+{{< thopen >}}
+TOPICS
+{{< thclose >}}
+{{< thopen >}}
+LECTURERS
+{{< thclose >}}
+
+{{< trclose >}}
+
+{{< theadclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Week 1**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L1
+{{< tdclose >}}
+{{< tdopen >}}
+Course introduction
+{{< tdclose >}}
+{{< tdopen >}}
+Saman Amarasinghe
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L2
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to Cell processor
+{{< tdclose >}}
+{{< tdopen >}}
+Michael Perrone, IBM
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R1
+{{< tdclose >}}
+{{< tdopen >}}
+Getting to know Cell
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L3
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to parallel architectures
+{{< tdclose >}}
+{{< tdopen >}}
+Saman Amarasinghe
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 1
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L4
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to concurrent programming
+{{< tdclose >}}
+{{< tdopen >}}
+Saman Amarasinghe
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Project reviews
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L5
+{{< tdclose >}}
+{{< tdopen >}}
+Parallel programming concepts
+{{< tdclose >}}
+{{< tdopen >}}
+Rodric Rabbah, IBM
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 2
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L6
+{{< tdclose >}}
+{{< tdopen >}}
+Design patterns for parallel programming I
+{{< tdclose >}}
+{{< tdopen >}}
+Rodric Rabbah, IBM
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Week 2**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R2-R3
+{{< tdclose >}}
+{{< tdopen >}}
+Cell programming hands-on
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L7
+{{< tdclose >}}
+{{< tdopen >}}
+Design patterns for parallel programming II
+{{< tdclose >}}
+{{< tdopen >}}
+Rodric Rabbah, IBM
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 3
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L8
+{{< tdclose >}}
+{{< tdopen >}}
+StreamIt language
+{{< tdclose >}}
+{{< tdopen >}}
+Bill Thies
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R4
+{{< tdclose >}}
+{{< tdopen >}}
+Cell debugging tools
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L9
+{{< tdclose >}}
+{{< tdopen >}}
+Debugging parallel programs
+{{< tdclose >}}
+{{< tdopen >}}
+Rodric Rabbah, IBM
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 4
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L10
+{{< tdclose >}}
+{{< tdopen >}}
+Performance monitoring and optimizations
+{{< tdclose >}}
+{{< tdopen >}}
+Rodric Rabbah, IBM
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Week 3**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L11
+{{< tdclose >}}
+{{< tdopen >}}
+Parallelizing compilers
+{{< tdclose >}}
+{{< tdopen >}}
+Saman Amarasinghe
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 5
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L12
+{{< tdclose >}}
+{{< tdopen >}}
+StreamIt parallelizing compiler
+{{< tdclose >}}
+{{< tdopen >}}
+Saman Amarasinghe
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R5
+{{< tdclose >}}
+{{< tdopen >}}
+Cell profiling tools
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+R6
+{{< tdclose >}}
+{{< tdopen >}}
+SIMD programming on Cell
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L13
+{{< tdclose >}}
+{{< tdopen >}}
+Star-P
+{{< tdclose >}}
+{{< tdopen >}}
+Alan Edelman
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Quiz 6
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L14
+{{< tdclose >}}
+{{< tdopen >}}
+Synthesizing parallel programs
+{{< tdclose >}}
+{{< tdopen >}}
+Arvind
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L15
+{{< tdclose >}}
+{{< tdopen >}}
+Cilk
+{{< tdclose >}}
+{{< tdopen >}}
+Bradley Kuszmaul
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L16
+{{< tdclose >}}
+{{< tdopen >}}
+Introduction to game development
+{{< tdclose >}}
+{{< tdopen >}}
+Mike Acton, Insomiac Games
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen colspan="3" >}}
+**Week 4**
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L17
+{{< tdclose >}}
+{{< tdopen >}}
+The Raw experience
+{{< tdclose >}}
+{{< tdopen >}}
+Rodric Rabbah, IBM
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+L18
+{{< tdclose >}}
+{{< tdopen >}}
+The future
+{{< tdclose >}}
+{{< tdopen >}}
+Saman Amarasinghe
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Student project competition
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+{{< tropen >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+{{< tdopen >}}
+Award ceremony
+{{< tdclose >}}
+{{< tdopen >}}
+ 
+{{< tdclose >}}
+
+{{< trclose >}}
+
+{{< tableclose >}}
