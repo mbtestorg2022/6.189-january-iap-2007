@@ -66,7 +66,7 @@ Cell profiling tools ([PDF]({{< baseurl >}}/resources/6189recitatn5))
 
 
 **Supporting Files:**  
-rec5.zip ([ZIP](/courses/electrical-engineering-and-computer-science/6-189-multicore-programming-primer-january-iap-2007/recitations/rec5.zip)) (The ZIP file contains: 2 .s files, common.h, make-obj-file, and 2 makefile files.)
+rec5.zip ({{% resource_link "1e860c10-2aad-bab7-e450-cc9957a60638" "ZIP" %}}) (The ZIP file contains: 2 .s files, common.h, make-obj-file, and 2 makefile files.)
 
 
 {{< tdclose >}}
